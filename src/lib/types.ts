@@ -10,7 +10,6 @@ export interface Book {
   export interface AIInsight {
     bookId: string;        // References the book this insight belongs to
     insights: string;      // The AI-generated content
-    generatedAt: string;   // Timestamp of when the insight was generated
   }
   
   export interface APIError {

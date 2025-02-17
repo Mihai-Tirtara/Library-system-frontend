@@ -85,10 +85,6 @@ export default function AIInsights({ bookId, className = '' }: AIInsightsProps) 
                 {insights.insights}
             </p>
 
-            {/* Generation timestamp */}
-            <p className="text-xs text-purple-600 mt-2">
-                Generated on: {new Date(insights.generatedAt).toLocaleDateString()}
-            </p>
         </div>
     );
 }
