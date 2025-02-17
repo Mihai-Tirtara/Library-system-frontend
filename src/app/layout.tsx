@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import Navigation from '../components/Navigation'
 import "./globals.css";
 
 // Load Inter font
@@ -20,9 +19,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        {/* Navigation component at the top of every page */}
-        <Navigation />
-
         {/* Main content area with consistent padding and max width */}
         <main className="container mx-auto px-4 py-8 min-h-screen">
           {children}
