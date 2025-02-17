@@ -5,7 +5,7 @@ const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080';
 
 // Default headers and configuration for all requests
 const defaultConfig: RequestInit = {
-  credentials: 'include', // Necessary for CORS with authentication
+  //credentials: 'include', // Necessary for CORS with authentication
   headers: {
     'Content-Type': 'application/json',
     'Accept': 'application/json',
